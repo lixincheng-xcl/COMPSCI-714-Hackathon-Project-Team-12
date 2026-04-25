@@ -273,48 +273,48 @@ The demo UI will allow users to upload a sample contract and view the generated 
 
 ## 🗓️ Development Roadmap
 
-### Week 1: Repository Setup and Use Case Understanding
+### Week 6: Repository Setup and Use Case Understanding
 
 - Set up GitHub repository.
 - Create README, folder structure, and documentation files.
 - Review use case requirements.
 - Prepare initial project plan.
 
-### Week 2: Problem and Data Analysis
+### Week 7: Problem and Data Analysis
 
 - Define problem scope.
 - Create clause taxonomy.
 - Prepare data inventory.
 - Identify sample contracts and reference materials.
 
-### Week 3: Architecture and Document Processing
+### Week 8: Architecture and Document Processing
 
 - Finalise system architecture.
 - Implement document loading.
 - Extract text from PDF/DOCX files.
 - Create initial clause segmentation logic.
 
-### Week 4: Retrieval and Clause Matching
+### Week 9: Retrieval and Clause Matching
 
 - Build reference template index.
 - Implement basic retrieval.
 - Match uploaded clauses with reference clauses.
 - Prepare Checkpoint 2 materials.
 
-### Week 5: Clause Comparison and Flag Generation
+### Week 10: Clause Comparison and Flag Generation
 
 - Implement comparison logic.
 - Generate Green / Amber / Red / Blue flags.
 - Add evidence and rationale for each flag.
 
-### Week 6: Report Generation and UI
+### Week 11: Report Generation and UI
 
 - Generate structured review reports.
 - Build Streamlit demo interface.
 - Test with sample contracts.
 - Improve output readability.
 
-### Week 7: Evaluation and Demo Preparation
+### Week 12: Evaluation and Demo Preparation
 
 - Evaluate system outputs.
 - Conduct error analysis.
