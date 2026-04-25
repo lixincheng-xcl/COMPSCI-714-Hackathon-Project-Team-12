@@ -1,9 +1,9 @@
-# Hackathon Project: Research Contract Adviser Agent - Team 12
+# 🔥Hackathon Project: Research Contract Adviser Agent - Team 12
 
 > **COMPSCI 714 - AI Architecture and Design**
 > University of Auckland · Group Project · Semester 1, 2026
 
-[![Course](https://img.shields.io/badge/COMPSCI%20714-AI--Architecture--and--Design%20Interaction-blue)](https://www.auckland.ac.nz/)
+[![Course](https://img.shields.io/badge/COMPSCI%20714-AI--Architecture--and--Design%20Interaction-blue)](https://www.auckland.ac.nz/) </br>
 [![Topic](https://img.shields.io/badge/Topic-Research--Contract--Adviser--Agent%20Paper%20Reading%20Assistant-purple)](#)
 [![Python](https://img.shields.io/badge/Python-3.9%2F3.11-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-orange)](https://pytorch.org/)
