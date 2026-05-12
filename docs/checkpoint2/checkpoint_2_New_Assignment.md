@@ -23,7 +23,7 @@ The system helps human reviewers:
 - demonstrate Azure / Microsoft Foundry explanation support.
 
 The system is designed as a **human-in-the-loop decision-support tool**. It does not provide legal advice, approve contracts, reject contracts, or replace professional legal judgement.
-
+![Figure 0](assets/fig0.png)
 ### 中文
 
 我们团队正在开发一个概念验证系统：**Research Contract Adviser Agent（研究合同顾问智能体）**，用于辅助大学工作人员审查外部合作方提供的研究合同。
