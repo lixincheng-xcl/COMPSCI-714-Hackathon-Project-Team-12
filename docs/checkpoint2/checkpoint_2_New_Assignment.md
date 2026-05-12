@@ -408,14 +408,3 @@ Overall, the project satisfies the core implementation goals of the selected **R
 总体来说，本项目已经满足所选 **Research Contract Adviser Agent** use case 的核心实现目标，可以进入最终展示和报告阶段。
 
 ---
-
-## Suggested Figures / 图片插入建议
-
-| Figure | Content | Suggested File Path |
-|---|---|---|
-| Figure 1 | System architecture diagram | `assets/fig1_system_pipeline.png` |
-| Figure 2 | Streamlit homepage with Azure notice | `assets/fig2_streamlit_ui.png` |
-| Figure 3 | Safe sample result | `assets/fig3_safe_sample_result.png` |
-| Figure 4 | Risky sample result | `assets/fig4_risky_sample_result.png` |
-| Figure 5 | Microsoft Foundry Agent page | `assets/fig5_foundry_agent.png` |
-| Figure 6 | pytest and CLI output | `assets/fig6_test_output.png` |
