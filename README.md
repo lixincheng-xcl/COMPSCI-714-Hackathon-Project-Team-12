@@ -46,6 +46,7 @@ The system is designed as a **human-in-the-loop decision-support tool**. It does
 **Team:** Team 12 – NovaMind Collective  
 **Course:** COMPSCI 714 – AI Architecture and Design  
 **Project Type:** Hackathon-based AI proof of concept
+**GitHub Repository:** `https://github.com/lixincheng-xcl/COMPSCI-714-Hackathon-Project-Team-12`
 
 The selected use case focuses on building an AI assistant that can:
 
@@ -76,7 +77,8 @@ The current system supports:
 - Streamlit web demo;
 - Microsoft Foundry Agent demonstration;
 - Azure OpenAI explanation enhancement module;
-- automated pipeline tests.
+- automated pipeline tests;
+- visual bilingual Checkpoint 2 report with screenshots.
 
 The current stable AutoDL runtime uses the deterministic local review pipeline for the Streamlit demo. Azure / Microsoft Foundry is demonstrated separately through the Microsoft Foundry Agent because live Azure calls from AutoDL may be affected by external network latency.
 
@@ -189,6 +191,35 @@ docs/azure_foundry_demo.md
 
 ---
 
+## 📘 Checkpoint 2 Submission
+
+The visual bilingual Checkpoint 2 report has been prepared and stored in the repository:
+
+```text
+docs/checkpoint2/checkpoint_2_new_Assignment.md
+```
+
+Supporting figures and screenshots are stored in:
+
+```text
+docs/checkpoint2/assets/
+```
+
+The Checkpoint 2 report summarises:
+
+- project overview;
+- problem understanding;
+- system architecture;
+- implemented modules;
+- Streamlit demo interface;
+- safe and risky sample results;
+- Azure / Microsoft Foundry Agent integration;
+- automated testing results;
+- responsible AI and human oversight;
+- current limitations and next steps.
+
+The report is designed to support both GitHub-based review and PDF export for coursework submission.
+
 ## 🧩 MVP Scope
 
 ### ✅ In Scope
@@ -233,24 +264,30 @@ COMPSCI-714-Hackathon-Project-Team-12/
 ├── docs/
 │   ├── checkpoint1/
 │   ├── checkpoint2/
+│   │   ├── checkpoint2_report.md
+│   │   ├── checkpoint2_submission_short.md
+│   │   ├── checkpoint_2_new_Assignment.md
+│   │   └── assets/
+│   │       ├── fig0.png
+│   │       ├── fig1_system_pipeline.png
+│   │       ├── fig2_streamlit_ui.png
+│   │       ├── fig3_safe_sample_result.png
+│   │       ├── fig4_risky_sample_result.png
+│   │       ├── fig5_foundry_agent.png
+│   │       └── fig6_test_output.png
 │   ├── azure_foundry_demo.md
 │   ├── demo_script.md
 │   ├── implementation_progress.md
 │   ├── project_plan.md
 │   ├── architecture.md
 │   ├── data_inventory.md
-│   ├── risk_register.md
-│   └── meeting_notes/
+│   └── risk_register.md
 │
 ├── data/
 │   ├── README.md
-│   ├── sample_contracts/
-│   │   ├── sample_contract.txt
-│   │   └── risky_contract.txt
-│   ├── reference_templates/
-│   ├── reference_positions/
-│   ├── private/
-│   └── processed/
+│   └── sample_contracts/
+│       ├── sample_contract.txt
+│       └── risky_contract.txt
 │
 ├── src/
 │   ├── azure/
@@ -302,11 +339,11 @@ COMPSCI-714-Hackathon-Project-Team-12/
 │   └── test_pipeline.py
 │
 └── outputs/
-    ├── sample_contract_review_report.md
-    ├── sample_contract_review_report.json
-    ├── risky_contract_review_report.md
-    └── risky_contract_review_report.json
+    └── README.md
 ```
+
+> Note: Internal UoA reference templates, private data, `.env`, and generated local outputs are excluded from the public repository.
+
 
 ---
 
@@ -315,7 +352,7 @@ COMPSCI-714-Hackathon-Project-Team-12/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/lixincheng-xcl/COMPSCI-714-Hackathon-Project-Team-12.git
 cd COMPSCI-714-Hackathon-Project-Team-12
 ```
 
@@ -625,10 +662,14 @@ The tests cover:
 | Azure explanation enhancement module | Implemented |
 | Microsoft Foundry Agent | Completed |
 | Azure-aware Streamlit notice | Completed |
+| Checkpoint 1 report | Completed |
+| Checkpoint 2 report | Completed |
+| Visual bilingual Checkpoint 2 report | Completed |
+| Checkpoint 2 screenshots / assets | Completed |
 | Responsible AI documentation | Completed |
+| GitHub cleanup and upload | Completed |
 | Final presentation | Pending |
 | Final report | Pending |
-| Final GitHub cleanup and upload | Pending |
 
 ---
 
@@ -724,6 +765,7 @@ git commit -m "feat: add PDF text extraction module"
 git commit -m "feat: implement basic clause segmentation"
 git commit -m "feat: add Azure explanation enhancer"
 git commit -m "docs: add Microsoft Foundry demo notes"
+git commit -m "docs: add visual bilingual checkpoint 2 report"
 git commit -m "fix: handle empty document upload"
 ```
 
@@ -782,12 +824,12 @@ Blocked
 | Team Registration | Confirm team members and roles | Completed |
 | Use Case Selection | Select Research Contract Adviser Agent | Completed |
 | Checkpoint 1 | Problem understanding, ideation, initial design | Completed |
-| Checkpoint 2 | Solution architecture and implementation progress | Completed |
+| Checkpoint 2 | Visual bilingual report with screenshots and implementation progress | Completed |
 | MVP Implementation | Working local pipeline and Streamlit demo | Completed |
 | Azure / Microsoft Foundry Demo | Foundry Agent using gpt-4o | Completed |
+| GitHub Upload | Public repository cleaned and uploaded | Completed |
 | Final Presentation | Pitch and demo of PoC | Pending |
 | Final Report | Technical report and reflection | Pending |
-| Final GitHub Cleanup | Remove sensitive/internal files before upload | Pending |
 
 ---
 
