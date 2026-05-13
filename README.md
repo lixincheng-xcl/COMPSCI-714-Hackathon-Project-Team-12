@@ -196,7 +196,7 @@ docs/azure_foundry_demo.md
 The visual bilingual Checkpoint 2 report has been prepared and stored in the repository:
 
 ```text
-docs/checkpoint2/checkpoint_2_new_Assignment.md
+docs/checkpoint2/checkpoint_2_New_Assignment.md
 ```
 
 Supporting figures and screenshots are stored in:
@@ -266,7 +266,7 @@ COMPSCI-714-Hackathon-Project-Team-12/
 │   ├── checkpoint2/
 │   │   ├── checkpoint2_report.md
 │   │   ├── checkpoint2_submission_short.md
-│   │   ├── checkpoint_2_new_Assignment.md
+│   │   ├── checkpoint_2_New_Assignment.md
 │   │   └── assets/
 │   │       ├── fig0.png
 │   │       ├── fig1_system_pipeline.png
